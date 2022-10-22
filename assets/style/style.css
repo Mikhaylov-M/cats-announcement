@@ -1,0 +1,128 @@
+@import './fonts.css';
+:root {
+  --color-sea: #6EBBD3;
+  --color-dark: #000000;
+  --color-light: #FFFFFF;
+  --color-lightgrey: #F3F3F3;
+  --color-darkgrey: #1F2021;
+}
+/* BASE CONFIG */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+/* BASE CONFIG */
+/* UNIQUE */
+.row {
+  display: flex;
+}
+.col-4 {
+  width: 33.33333%;
+}
+/* UNIQUE */
+/* ANNOUNCEMENT SECTION */
+.announcement {
+  padding: 88px 130px 95px;
+  column-gap: 20px;
+}
+.announcement__cards {
+  column-gap: 20px;
+}
+.announcement__card {
+  width: 100%;
+  position: relative;
+}
+.announcement__image {
+  width: 100%;
+}
+.sale-icon {
+  width: 78px;
+  height: 39px;
+  background: #E62D2D;
+  border-radius: 10px;
+  position: absolute;
+  top: 34px;
+  left: 37px;
+  text-align: center;
+  padding: 9px 18px;
+}
+.sale-icon__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-light);
+}
+.like-icon {
+  position: absolute;
+  top: 37px;
+  right: 32px;
+}
+.announcement__desc {
+  padding: 29px;
+  background: var(--color-lightgrey);
+}
+.announcement__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-dark);
+  margin-bottom: 21px;
+}
+.announcement__info {
+  column-gap: 48px;
+}
+.info__sm-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--color-dark);
+  display: block;
+}
+.info__lg-desc {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-dark);
+  display: block;
+}
+.announcement__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-dark);
+  margin-top: 16px;
+}
+.announcement__stock-btn {
+  background-color: var(--color-sea);
+  color: var(--color-light);
+  width: 100%;
+  height: 65px;
+  border-radius: 0 0 10px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.announcement__sales-btn {
+  background-color: var(--color-darkgrey);
+  color: var(--color-light);
+  width: 100%;
+  height: 65px;
+  border-radius: 0 0 10px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+/* ANNOUNCEMENT SECTION */
