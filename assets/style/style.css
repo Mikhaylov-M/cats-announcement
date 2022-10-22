@@ -82,6 +82,17 @@ body {
 }
 .announcement__info {
   column-gap: 48px;
+  margin-left: 22px;
+  position: relative;
+}
+.announcement__info::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 26px;
+  background: var(--color-sea);
+  top: 0;
+  left: -20px;
 }
 .info__sm-desc {
   font-weight: 400;
